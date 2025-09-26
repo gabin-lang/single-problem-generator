@@ -62,3 +62,5 @@ NEXT_PUBLIC_GEMINI_API_KEY=your_gemini_api_key_here
 
 MIT License
 <!-- Force redeploy -->
+<!-- Force rebuild to clear Vercel cache -->
+  Deploy timestamp: 2024-01-26
