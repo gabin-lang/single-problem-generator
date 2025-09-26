@@ -2,7 +2,7 @@
 
   import { useState } from 'react';
   import ProblemInput from '@/components/ProblemInput';
-  import ProblemGenerator from '@/components/ProblemGenerator';
+  import SimpleProblemGenerator from '@/components/SimpleProblemGenerator';
 
   export interface SingleProblem {
     problemText: string;
@@ -46,10 +46,10 @@
                 2. 문제 생성 설정
               </h2>
               {problem ? (
-                <ProblemGenerator
-                  problem={problem}
-                  setIsLoading={setIsLoading}
-                />
+                <SimpleProblemGenerator
+    problem={problem}
+    setIsLoading={setIsLoading}
+  />
               ) : (
                 <div className="text-center py-12 text-gray-500">
                   <div className="text-6xl mb-4">📝</div>
