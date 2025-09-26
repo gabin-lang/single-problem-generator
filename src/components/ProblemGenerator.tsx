@@ -15,7 +15,6 @@
       setIsLoading(true);
 
       try {
-        // 간단한 숫자 치환 로직
         const numbers = problem.problemText.match(/\d+/g) || [];
         let modifiedText = problem.problemText;
 
@@ -52,6 +51,3 @@
       </div>
     );
   }
-
-  4. "Commit changes" 클릭
-    - Commit message: Fix ProblemGenerator.tsx - remove Gemini dependency
